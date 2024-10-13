@@ -1,0 +1,87 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.fab-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 60vh; /* Adjust as needed */
+  margin-top: 30vh; /* Adjust as needed */
+  margin-bottom: 10vh; /* Adjust as needed */
+}
+
+.fab {
+  width: 100%; /* Full width */
+  height: auto; /* Maintain aspect ratio */
+  margin-bottom: 10px;
+}
+.my_button {
+  background-color: #43889a; /* Green background */
+  border: none; /* Remove border */
+  color: white; /* White text */
+  padding: 15px 32px; /* Padding */
+  text-align: center; /* Center text */
+  text-decoration: none; /* Remove underline */
+  display: inline-block; /* Inline-block display */
+  font-size: 16px; /* Font size */
+  margin: 4px 2px; /* Margin */
+  cursor: pointer; /* Pointer cursor on hover */
+  border-radius: 8px; /* Rounded corners */
+}
+
+/* Hover Effect */
+.my_button:hover {
+  background-color: #1b241b; /* Darker green on hover */
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.item-detail {
+  display: flex;
+  align-items: left;
+  padding: 20px;
+}
+
+.item-image {
+  width: 200px;  /* Approximate 6 cm width */
+  height: 200px; /* Approximate 6 cm height */
+  margin-right: 20px; /* Space between image and description */
+}
+
+.item-description {
+  display: flex;
+  flex-direction: column;
+}
